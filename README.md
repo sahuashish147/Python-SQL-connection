@@ -1,6 +1,10 @@
 # Python-SQL-connection
 Connecting local SQL server with python with the help of pyodbc and pandas libraries
 
+Requirements:-
+* Python and its libraries (pandas, pyodbc)
+* SQL
+
 We can connect our python IDE directly to the SQL server, so that we can do some certain task by directly writing query in the python IDE. We can also export the output data by storing into pandas library and then export with the help of to_csv files or to_excel.
 
 At first we have to extablish the connection from python to our local SQL server;

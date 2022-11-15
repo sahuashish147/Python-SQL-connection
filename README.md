@@ -5,8 +5,8 @@ We can connect our python IDE directly to the SQL server, so that we can do some
 
 At first we have to extablish the connection from python to our local SQL server;
 ##  Python code;
-      import pyodbc
-      conn = pyodbc.connect('Driver={SQL Server};' 
+    import pyodbc
+    conn = pyodbc.connect('Driver={SQL Server};' 
                  'Server=PREDATOR\SQLSERVER;'  #Name of the SQL server, eg. PREDATOR\SQLSERVER (my local SQL server name)
                  'Database=Project1;' #name of the database which you want to access within the mention SQL server, eg. Project1 
                  'Trusted_Connection=no;')

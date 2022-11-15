@@ -8,7 +8,7 @@ Requirements:-
 We can connect our python IDE directly to the SQL server, so that we can do some certain task by directly writing query in the python IDE. We can also export the output data by storing into pandas library and then export with the help of to_csv files or to_excel.
 
 At first we have to extablish the connection from python to our local SQL server;
-##  Python code;
+##  Python code for connection;
     import pyodbc
     conn = pyodbc.connect('Driver={SQL Server};' 
                  'Server=PREDATOR\SQLSERVER;'  #Name of the SQL server, eg. PREDATOR\SQLSERVER (my local SQL server name)
